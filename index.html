@@ -1,0 +1,1009 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/captures-favicon.png" type="image/x-icon">
+    <title>Captures</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body class="bg">
+  <nav class="navbar bg-light fixed-top shadow-lg" data-bs-theme="light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <span class="portraits-title">Captures 
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-camera2" viewBox="0 0 16 16">
+           <path d="M5 8c0-1.657 2.343-3 4-3V4a4 4 0 0 0-4 4"/>
+           <path d="M12.318 3h2.015C15.253 3 16 3.746 16 4.667v6.666c0 .92-.746 1.667-1.667 1.667h-2.015A5.97 5.97 0 0 1 9 14a5.97 5.97 0 0 1-3.318-1H1.667C.747 13 0 12.254 0 11.333V4.667C0 3.747.746 3 1.667 3H2a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1h.682A5.97 5.97 0 0 1 9 2c1.227 0 2.367.368 3.318 1M2 4.5a.5.5 0 1 0-1 0 .5.5 0 0 0 1 0M14 8A5 5 0 1 0 4 8a5 5 0 0 0 10 0"/>
+          </svg>
+        </span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end text-bg-light" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+          <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active bg-light" aria-current="page" href="#Home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active bg-light" aria-current="page" href="#Services">services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active bg-light " aria-current="page" href="#About">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active bg-light " aria-current="page" href="#Blog">Blog</a>
+            </li>
+            <li class="nav-item dropdown bg-light">
+              <a class="nav-link active dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Need support?
+              </a>
+              <div class="d-flex flex-row justify-content-start">
+                <div class="dropdown-menu dropdown-menu-light">
+                  <a class="dropdown-item bg-light" href="https://wa.me/qr/KV3X5ZNV7CFZG1">
+                     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                      <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
+                     </svg><br>
+                     Whatsapp
+                  </a>     
+                  <a class="dropdown-item bg-light" href="tel: +919182089445">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+                      <path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.6 17.6 0 0 0 4.168 6.608 17.6 17.6 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.68.68 0 0 0-.58-.122l-2.19.547a1.75 1.75 0 0 1-1.657-.459L5.482 8.062a1.75 1.75 0 0 1-.46-1.657l.548-2.19a.68.68 0 0 0-.122-.58zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z"/>
+                    </svg><br>
+                    Phone
+                  </a>
+                  <a class="dropdown-item bg-light" href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+                      <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z"/>
+                    </svg><br>
+                    Mail
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home -->
+  <div id="Home">
+ 
+  <div class="container pt-5">
+    <p class="section-title pt-5" >
+          Home
+    </p>
+  </div>
+
+  <h5 class="main-headings container text-center">Welcome to Captures</h5>
+  <p class="main-paragraphs container text-center"><i>Where Every Click Tells a Story</i></p>
+  <hr class="horizontal-line container">
+
+  <div class="home-section-cards m-4 p-3">
+     <h5 class="side-headings">Our Commitment to Excellence</h5>
+      <p class="paragraphs">
+        With years of experience and a passion for our craft, our team of photographers 
+        is dedicated to delivering exceptional results. From weddings and family portraits 
+        to corporate events and commercial projects, we approach each assignment with creativity, 
+        professionalism, and attention to detail.
+      </p>
+  </div>
+
+  <h5 class="main-headings container pt-5">Services Designed with You in Mind</h5>
+ 
+  <p class="main-paragraphs container">Whatever your photography needs, we've got you covered. Explore our services below:</p>
+  
+  <div class="container">
+  <ul class="row container">
+    <li class="p-5 col col-lg-3">
+      <h5 class="c1-heading">Weddings & Events:</h5> 
+      <p class="p1-paragraph">Let us capture the magic of your special day with our wedding and event photography services.</p>  
+      <iframe src="https://www.youtube.com/embed/Yi4P-s11-_c" title="YS Sharmila Reddy || Son’s Engagement || Raja &amp; Priya" frameborder="0" class="videos" allowfullscreen></iframe>  
+    </li>
+    <li class="p-5 col col-lg-4">
+      <h5 class="c1-heading">Portraits & Lifestyle:</h5> 
+      <p class="p1-paragraph">Whether it's a family portrait, a senior photo session, or a lifestyle shoot, our talented photographers will capture your unique personality and style.</p>
+      <iframe src="https://www.youtube.com/embed/1ap0baidLVo" title="The Beauty Of Isa | BMPCC 6K PRO + Sigma 18-35 + Ronin RS2 | Cinematic fashion film" frameborder="0" class="videos" allowfullscreen></iframe>
+    </li>
+    <li class="p-5 col col-lg-3">
+      <h5 class="c1-heading">Corporate & Commercial:</h5> 
+      <p class="p1-paragraph">Need professional photography for your business or brand? Our commercial photography services will help you stand out from the competition.</p>
+      <iframe src="https://www.youtube.com/embed/NC9KlaxtfLg" title="Cinematic 4k advertisement for restaurant | B ROLL #2 | SONY A7iii" frameborder="0" class="videos" allowfullscreen></iframe>
+    </li>
+  </ul>
+  </div>
+
+  <h5 class="main-headings container">Experience the Captures Difference</h5>
+  <p class="main-paragraphs container">Browse our portfolio to see examples of our work across various genres. </p>
+
+  <h5 class="main-headings container">Client Testimonials</h5>
+  <p class="main-paragraphs container">But don't just take our word for it. Read what our clients have to say about their experiences working with us.</p>
+
+  <h5 class="side-headings text-center"><b>Let's Get Started</b></h5>
+  <p class="paragraph text-center">Ready to bring your vision to life? Contact us today to discuss your project and learn how we can help.</p>
+
+  </div>
+
+  <!-- Blog -->
+  <div id="Blog">
+ 
+    
+    <div class="container">
+      <p class="section-title pt-5" >
+            Blogs
+      </p>
+    </div>
+
+    <div class="container">
+       <div class="row">
+          <div class="comment-cards m-2 mt-5 col-12 col-lg-2">
+            <div> 
+              <img src="https://img.freepik.com/premium-photo/young-brazilian-man-isolated-white-background-laughing_1368-362553.jpg" class="commentor mt-2" alt="commentor">
+                <div class="text-center mt-5">
+                    <p class="commentor-name pt-5">Abbot <br>
+                        <p class="rating-stars">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                              <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                            </svg>
+                          </p>
+                    </p>          
+                    <p class="comment">"Capturing cherished moments with precision and passion!"</p>
+                </div>
+            </div>
+          </div>
+        
+          <div class="comment-cards m-2 mt-5 col-12 col-lg-2">
+          <div class="mt-5"> 
+            <img src="https://eclatsuperior.com/wp-content/uploads/2021/04/man3.jpg" class="commentor mt-2" alt="commentor">
+              <div class="text-center mt-5">
+                  <p class="commentor-name pt-5">Brice <br>
+                      <span class="rating-stars">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                      </svg>
+                      </span>
+                  </p>          
+                  <p class="comment">"Bringing smiles to life, one frame at a time!"
+                  </p>
+              </div>
+          </div>
+          </div>
+        
+          <div class="comment-cards m-2 mt-5 col-12 col-lg-2">
+          <div > 
+            <img src="https://media.istockphoto.com/id/1311084168/photo/overjoyed-pretty-asian-woman-look-at-camera-with-sincere-laughter.webp?b=1&s=170667a&w=0&k=20&c=XPuGhP9YyCWquTGT-tUFk6TwI-HZfOr1jNkehKQ17g0=" class="commentor mt-2" alt="commentor">
+              <div class="text-center mt-5">
+                  <p class="commentor-name pt-5">Evana<br>
+                      <span class="rating-stars">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-half" viewBox="0 0 16 16">
+                        <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
+                      </svg>
+                      </span>
+                  </p>          
+                  <p class="comment">"Transforming ordinary moments into extraordinary memories!"
+                  </p>
+              </div>
+          </div>
+          </div>
+        
+          <div class="comment-cards m-2 mt-5 col-12 col-lg-2">
+          <div > 
+            <img src="https://media.istockphoto.com/id/1354699712/photo/head-shot-portrait-of-happy-young-indian-business-leader.jpg?s=612x612&w=0&k=20&c=BDIcny-_7GsSX9_ydCbZYQQSBlZmakQY3XAr3VUxQSk=" class="commentor mt-2" alt="commentor">
+              <div class="text-center mt-5">
+                  <p class="commentor-name pt-5">Inaya <br>
+                      <span class="rating-stars">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-half" viewBox="0 0 16 16">
+                        <path d="M5.354 5.119 7.538.792A.52.52 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.54.54 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.5.5 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.6.6 0 0 1 .085-.302.51.51 0 0 1 .37-.245zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.56.56 0 0 1 .162-.505l2.907-2.77-4.052-.576a.53.53 0 0 1-.393-.288L8.001 2.223 8 2.226z"/>
+                      </svg>
+                      </span>
+                  </p>          
+                  <p class="comment">"Crafting visual stories that resonate with hearts!"</p>
+              </div>
+          </div>
+          </div>
+        
+          <div class="comment-cards m-2 mt-5 col-12 col-lg-2">
+          <div > 
+            <img src="https://st3.depositphotos.com/1049680/37193/i/450/depositphotos_371934132-stock-photo-beautiful-african-american-businesswoman-wearing.jpg" class="commentor mt-2" alt="commentor">
+              <div class="text-center mt-5">
+                  <p class="commentor-name pt-5">Laura <br>
+                      <span class="rating-stars">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star" viewBox="0 0 16 16">
+                        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.56.56 0 0 0-.163-.505L1.71 6.745l4.052-.576a.53.53 0 0 0 .393-.288L8 2.223l1.847 3.658a.53.53 0 0 0 .393.288l4.052.575-2.906 2.77a.56.56 0 0 0-.163.506l.694 3.957-3.686-1.894a.5.5 0 0 0-.461 0z"/>
+                      </svg>
+                      </span>
+                  </p>          
+                  <p class="comment">"Creating timeless treasures that spark joy for a lifetime!"</p>
+              </div>
+          </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Services -->
+  <div id="Services">
+    <div class="container pt-5">
+      <p class="section-title pt-5" >
+            services
+      </p>
+  </div>
+
+  <div class="service-section-cards m-2 mb-5">   
+    <div class="row">
+      <div class="text-center col col-lg-6 order-2 order-lg-1 pt-5">
+        <h class="service-c-headings">Kids birthday</h>
+        <p class="service-c-paragraphs">Celebrate your little one's special day with us at Captures! Our team specializes
+          in capturing the joy and excitement of kids' birthdays with vibrant, fun-filled photos and videos.
+          From the cake smash to the party games, we'll ensure every moment is preserved for you to cherish forever.
+        </p>
+        <div>
+          <h4 class="price">Price : <span class="org-price">$10,000</span><span class="offer-price"> $5,000.99</span><br>
+            <span class="badge text-bg-success">50% off</span>
+          </h4> 
+        </div>
+        <a href="" class="text-center mt-5">
+          <button type="button" class="btn btn-outline-danger mt-3 mb-3"><b>Book now</b></button>
+        </a>
+      </div>
+      <div class="text-center col col-lg-6 order-1 order-lg-2">
+        <div id="carouselExampleSlidesOnly" class="carousel slide m-5 carousel-adjustment" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://images.unsplash.com/photo-1551495548-61c45bc5044f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8M3x6U1o5UVRGOFY0OHx8ZW58MHx8fHx8" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.unsplash.com/photo-1583007054045-800d870b8249?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.unsplash.com/photo-1522771930-78848d9293e8?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=1372&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.unsplash.com/photo-1519238263530-99bdd11df2ea?q=80&w=1304&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.unsplash.com/photo-1646932474464-bcfe7fb8cc3a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.unsplash.com/flagged/photo-1571275460369-dc7c65c85082?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXw4NDUwMDU5fHxlbnwwfHx8fHw%3D" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.unsplash.com/photo-1668302785920-00972ac2b266?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.unsplash.com/photo-1639316964796-911743e23ff4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="sc-sizing-images" alt="...">
+            </div>
+          </div>
+        </div>     
+      </div>
+    </div>       
+  </div>
+
+  <div class="service-section-cards m-2 mb-5">
+    <div class="row">
+      <div class="text-center col col-lg-6 order-2 order-lg-1 pt-5">
+        <h class="service-c-headings">Half Saree ceremony</h>
+        <p class="service-c-paragraphs">Mark this significant milestone in style with Capturs.
+          Our expert photographers will capture the grace and elegance of your half saree ceremony, 
+          creating timeless images that reflect the beauty of tradition and the joy of celebration.
+        </p>
+        <div>
+          <h4 class="price">Price : <span class="org-price">$15,000</span><span class="offer-price"> $10,000.99</span><br>
+            <span class="badge text-bg-success">30% off</span>
+          </h4> 
+        </div>
+        <a href="" class="text-center mt-5">
+          <button type="button" class="btn btn-outline-danger mt-3 mb-3"><b>Book now</b></button>
+        </a>
+      </div>
+      <div class="text-center col col-lg-6 order-1 order-lg-2">
+        <div id="carouselExampleSlidesOnly" class="carousel slide m-5 carousel-adjustment" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://www.bollywoodshaadis.com/img/article-2022821516371759837000.jpg" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://i.pinimg.com/736x/a3/0a/f7/a30af7b829a7268e30e2c15963dcbaae.jpg" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.squarespace-cdn.com/content/v1/5b953d9f70e80221c4a23ed0/1651690526150-8SIZRVY5YQ8KR92XKOTF/_C1_8593.JPG?format=1500w" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://i.pinimg.com/736x/1d/30/85/1d3085f2644ceffdef162b5e6bc9811e.jpg" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.squarespace-cdn.com/content/v1/60c21e50c8e9a118f78f17c9/5efb6e30-4e65-4511-8877-95ca44ae4ed5/Ridhi+Saree+Function+07-04-2021+%2857+of+325%29.jpg?format=500w" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://image.wedmegood.com/resized/450X/uploads/project/109825/1615199243_kinnu_0002.jpg" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://i.pinimg.com/736x/4a/41/05/4a41050489ea99290450f9464dcced8a.jpg" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH2nw6eN-nN5n4wysL--ygl44mMLecGViFws_el2egzLmb3iwOQ1pzdEJ6dXUDdsw_xDg&usqp=CAU" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.squarespace-cdn.com/content/v1/5aa4b76b1137a614d705feb7/1671309722662-Y4XSBF6GBBKM5K6UHQWY/8Z7A5627.jpg" class="sc-sizing-images" alt="...">
+            </div>
+          </div>
+        </div>     
+      </div>
+    </div>      
+  </div>
+
+  <div class="service-section-cards m-2 mb-5">
+    <div class="row">
+      <div class="text-center col col-lg-6 order-2 order-lg-1 pt-5">
+        <h class="service-c-headings">Pre and post wedding</h>
+        <p class="service-c-paragraphs">Say 'I do' to unforgettable memories with Captures. 
+          From the anticipation of pre-wedding rituals to the bliss of post-wedding celebrations, 
+          our talented team will document every precious moment of your journey to happily ever after.
+        </p>
+        <div>
+          <h4 class="price">Price : <span class="org-price">$20,000</span><span class="offer-price"> $15,000.99</span><br>
+            <span class="badge text-bg-success">45% off</span>
+          </h4> 
+        </div>
+        <a href="" class="text-center mt-5">
+          <button type="button" class="btn btn-outline-danger mt-3 mb-3"><b>Book now</b></button>
+        </a>
+      </div>
+      <div class="text-center col col-lg-6 order-1 order-lg-2">
+        <div id="carouselExampleSlidesOnly" class="carousel slide m-5 carousel-adjustment" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://images.unsplash.com/photo-1669258002024-8731bb8664e9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.unsplash.com/photo-1678924722419-7619e960b88c?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwxMTgzNTcxNXx8ZW58MHx8fHx8" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.unsplash.com/photo-1596457221755-b96bc3a6df18?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.unsplash.com/photo-1525258946800-98cfd641d0de?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.unsplash.com/photo-1599462616558-2b75fd26a283?q=80&w=1501&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.unsplash.com/photo-1493728695749-5a3603bd6908?q=80&w=1376&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.squarespace-cdn.com/content/v1/56b6347007eaa0749953ef98/1621280206978-TT2X17CNP4AUEX56M8T7/BZ6A1696-Edit-2.jpg" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.shaadisaga.com/shaadisaga_production/photos/pictures/005/631/776/new_medium/TALAMBRALU-_Kishor_Krishnamoorthi.jpg?1671800242" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.unsplash.com/photo-1600038937815-57cbbba6ba7d?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="sc-sizing-images" alt="...">
+            </div>
+          </div>
+        </div>     
+      </div>
+    </div>      
+  </div>
+
+  <div class="service-section-cards m-2 mb-5">
+    <div class="row">
+      <div class="text-center col col-lg-6 order-2 order-lg-1 pt-5">
+        <h class="service-c-headings">Style and Fashion</h>
+        <p class="service-c-paragraphs">Make a statement with Captures as your fashion photography
+          partner. Whether it's a glamorous fashion shoot or a stylish portfolio, our creative 
+          professionals will capture your unique style and personality with flair and finesse.
+        </p>
+        <div>
+          <h4 class="price">Price : <span class="org-price">$25,000</span><span class="offer-price"> $20,000.99</span><br>
+            <span class="badge text-bg-success">45% off</span>
+          </h4> 
+        </div>
+        <a href="" class="text-center mt-5">
+          <button type="button" class="btn btn-outline-danger mt-3 mb-3"><b>Book now</b></button>
+        </a>
+      </div>
+      <div class="text-center col col-lg-6 order-1 order-lg-2">
+        <div id="carouselExampleSlidesOnly" class="carousel slide m-5 carousel-adjustment" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://images.unsplash.com/photo-1524860432737-bee41d4136ce?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.unsplash.com/photo-1531384441138-2736e62e0919?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.unsplash.com/photo-1535295972055-1c762f4483e5?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.unsplash.com/photo-1536766820879-059fec98ec0a?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.unsplash.com/photo-1536303158031-c868b371399f?q=80&w=1376&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.unsplash.com/photo-1540324155974-7523202daa3f?q=80&w=1430&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="https://images.unsplash.com/photo-1536780672898-85f8414345a7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDd8fHxlbnwwfHx8fHw%3D" class="sc-sizing-images" alt="...">
+            </div>
+          </div>
+        </div>     
+      </div>
+    </div>      
+  </div>
+
+  <div class="service-section-cards m-2 mb-5">
+    <div class="row">
+      <div class="text-center col col-lg-6 order-2 order-lg-1 pt-5">
+        <h class="service-c-headings">All events</h>
+        <p class="service-c-paragraphs">Make a statement with Captures as your fashion 
+          photography partner. Whether it's a glamorous fashion shoot or a stylish portfolio, 
+          our creative professionals will capture your unique style and personality with flair and finesse.
+        </p>
+        <div>
+          <h4 class="price">Price : <span class="org-price">$30,000</span><span class="offer-price"> $15,000.99</span><br>
+            <span class="badge text-bg-success">50% off</span>
+          </h4> 
+        </div>
+        <a href="" class="text-center mt-5">
+          <button type="button" class="btn btn-outline-danger mt-3 mb-3"><b>Book now</b></button>
+        </a>
+      </div>
+      <div class="text-center col col-lg-6 order-1 order-lg-2">
+        <div id="carouselExampleSlidesOnly" class="carousel slide m-5 carousel-adjustment" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="" class="sc-sizing-images" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="" class="sc-sizing-images" alt="...">
+            </div>
+          </div>
+        </div>     
+      </div>
+    </div>      
+  </div>
+
+  </div>
+
+  <!-- About -->
+  <div id="About">
+    <div class="container pt-5">
+      <p class="section-title pt-5" >
+            About Us
+      </p>
+    </div>
+    <h5 class="text-center">Understanding Camera Levels and Accessories</h5>
+    <hr class="horizontal-line container">
+    <h5 class="main-headings container">Entry-Level Cameras</h5>
+    <p class="paragraph container">Entry-level cameras are perfect for beginners and enthusiasts 
+      looking to explore the world of photography without breaking the bank. These cameras typically 
+      offer user-friendly features and automatic shooting modes, making them ideal for learning 
+      the basics of photography. Entry-level DSLRs and mirrorless cameras provide excellent image 
+      quality and versatility for capturing a wide range of subjects, from portraits to landscapes.
+    </p>
+    <p class="main-paragraph container"><i>Recommended Accessories for Entry-Level Cameras:</i></p>
+   
+     <div class="about-section-cards m-3">
+         <div class="row p-4">
+              <div class="col order-1">
+                <p class="about-section-card-headings">Camera bag</p>
+                <p class="about-section-card-paragraphs">Keep your camera and accessories safe and organized with a durable camera bag. </p>
+              </div>
+              <div class="text-center col-6 order-2 about-svg">
+                <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" fill="currentColor" class="bi bi-backpack3" viewBox="0 0 16 16">
+                  <path d="M4.04 7.43a4 4 0 0 1 7.92 0 .5.5 0 1 1-.99.14 3 3 0 0 0-5.94 0 .5.5 0 1 1-.99-.14M4 9.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zm1 .5v3h6v-3h-1v.5a.5.5 0 0 1-1 0V10z"/>
+                  <path d="M6 2.341V2a2 2 0 1 1 4 0v.341c.465.165.904.385 1.308.653l.416-1.247a1 1 0 0 1 1.748-.284l.77 1.027a1 1 0 0 1 .15.917l-.803 2.407C13.854 6.49 14 7.229 14 8v5.5a2.5 2.5 0 0 1-2.5 2.5h-7A2.5 2.5 0 0 1 2 13.5V8c0-.771.146-1.509.41-2.186l-.802-2.407a1 1 0 0 1 .15-.917l.77-1.027a1 1 0 0 1 1.748.284l.416 1.247A6 6 0 0 1 6 2.34ZM7 2v.083a6 6 0 0 1 2 0V2a1 1 0 1 0-2 0m5.941 2.595.502-1.505-.77-1.027-.532 1.595q.447.427.8.937M3.86 3.658l-.532-1.595-.77 1.027.502 1.505q.352-.51.8-.937M8 3a5 5 0 0 0-5 5v5.5A1.5 1.5 0 0 0 4.5 15h7a1.5 1.5 0 0 0 1.5-1.5V8a5 5 0 0 0-5-5"/>
+                </svg>
+               </div>   
+         </div> 
+               
+     </div>
+
+     <div class="about-section-cards m-3">
+      <div class="row p-4">
+           <div class="col order-2">
+             <p class="about-section-card-headings">Tripod</p>
+             <p class="about-section-card-paragraphs">Achieve stable shots and experiment with long exposures using a tripod.</p>
+           </div>
+           <div class="text-center col order-1 about-svg">
+            <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            width="150"
+            height="150"       
+          >
+            <path d="M3 11a4 4 0 0 1 4-4h1m8 0a4 4 0 0 1 4 4h1" />
+            <path d="M6 21v-6a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v6" />
+            <circle cx="12" cy="7" r="4" />
+          </svg>
+             
+            </div>   
+      </div> 
+            
+     </div>
+
+     <div class="about-section-cards m-3">
+      <div class="row p-4">
+           <div class="col order-1">
+             <p class="about-section-card-headings">Extra Batteries</p>
+             <p class="about-section-card-paragraphs">Ensure you never miss a shot by carrying spare batteries for extended shooting sessions. </p>
+           </div>
+           <div class="text-center col order-2 about-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" fill="currentColor" class="bi bi-battery-charging" viewBox="0 0 16 16">
+              <path d="M9.585 2.568a.5.5 0 0 1 .226.58L8.677 6.832h1.99a.5.5 0 0 1 .364.843l-5.334 5.667a.5.5 0 0 1-.842-.49L5.99 9.167H4a.5.5 0 0 1-.364-.843l5.333-5.667a.5.5 0 0 1 .616-.09z"/>
+              <path d="M2 4h4.332l-.94 1H2a1 1 0 0 0-1 1v4a1 1 0 0 0 1 1h2.38l-.308 1H2a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2"/>
+              <path d="M2 6h2.45L2.908 7.639A1.5 1.5 0 0 0 3.313 10H2zm8.595-2-.308 1H12a1 1 0 0 1 1 1v4a1 1 0 0 1-1 1H9.276l-.942 1H12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2z"/>
+              <path d="M12 10h-1.783l1.542-1.639q.146-.156.241-.34zm0-3.354V6h-.646a1.5 1.5 0 0 1 .646.646M16 8a1.5 1.5 0 0 1-1.5 1.5v-3A1.5 1.5 0 0 1 16 8"/>
+            </svg>
+            </div>   
+      </div> 
+            
+     </div>
+
+     <div class="about-section-cards m-3">
+      <div class="row p-4">
+           <div class="col order-2">
+             <p class="about-section-card-headings">Lens Hood</p>
+             <p class="about-section-card-paragraphs"> Reduce lens flare and protect your lens from stray light and damage with a lens hood.</p>
+           </div>
+           <div class="text-center col-6 order-1 about-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" fill="currentColor" class="bi bi-sd-card" viewBox="0 0 16 16">
+              <path d="M6.25 3.5a.75.75 0 0 0-1.5 0v2a.75.75 0 0 0 1.5 0zm2 0a.75.75 0 0 0-1.5 0v2a.75.75 0 0 0 1.5 0zm2 0a.75.75 0 0 0-1.5 0v2a.75.75 0 0 0 1.5 0zm2 0a.75.75 0 0 0-1.5 0v2a.75.75 0 0 0 1.5 0z"/>
+              <path fill-rule="evenodd" d="M5.914 0H12.5A1.5 1.5 0 0 1 14 1.5v13a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 14.5V3.914c0-.398.158-.78.44-1.06L4.853.439A1.5 1.5 0 0 1 5.914 0M13 1.5a.5.5 0 0 0-.5-.5H5.914a.5.5 0 0 0-.353.146L3.146 3.561A.5.5 0 0 0 3 3.914V14.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5z"/>
+            </svg>
+            </div>   
+      </div> 
+            
+     </div>
+
+     <div class="about-section-cards m-3">
+      <div class="row p-4">
+           <div class="col order-1">
+             <p class="about-section-card-headings">Cleaning Kit</p>
+             <p class="about-section-card-paragraphs"> Keep your camera and lenses clean and free from dust, dirt, and smudges with a camera cleaning kit.</p>
+           </div>
+           <div class="text-center col order-2 about-svg">
+            <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" fill="currentColor" class="bi bi-layers" viewBox="0 0 16 16">
+              <path d="M8.235 1.559a.5.5 0 0 0-.47 0l-7.5 4a.5.5 0 0 0 0 .882L3.188 8 .264 9.559a.5.5 0 0 0 0 .882l7.5 4a.5.5 0 0 0 .47 0l7.5-4a.5.5 0 0 0 0-.882L12.813 8l2.922-1.559a.5.5 0 0 0 0-.882zm3.515 7.008L14.438 10 8 13.433 1.562 10 4.25 8.567l3.515 1.874a.5.5 0 0 0 .47 0zM8 9.433 1.562 6 8 2.567 14.438 6z"/>
+            </svg>
+           </div>   
+      </div> 
+            
+     </div>
+    
+    <h5 class="main-headings container">Intermediate-Level Cameras</h5>
+    <p class="paragraph container">Intermediate-level cameras offer more advanced features and customization 
+      options for photographers who want to take their skills to the next level. These cameras often 
+      include manual shooting modes, improved autofocus systems, and higher-resolution sensors, 
+      allowing for greater control and creativity. Intermediate DSLRs and mirrorless cameras 
+      are popular choices for hobbyists and aspiring professionals looking to expand their capabilities.
+    </p>
+    <p class="main-paragraph container"><i>Recommended Accessories for Intermediate-Level Cameras:</i></p>
+   
+    <div class="about-section-cards m-3">
+      <div class="row p-4">
+           <div class="col order-1">
+             <p class="about-section-card-headings">Prime Lenses</p>
+             <p class="about-section-card-paragraphs">Explore different focal lengths and aperture settings with prime lenses for sharper images and creative effects.</p>
+           </div>
+           <div class="text-center col order-2 about-svg">
+            <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            height="150"
+            width="150"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <circle cx="12" cy="12" r="4" />
+            <line x1="12" y1="6" x2="12" y2="2" />
+            <line x1="12" y1="22" x2="12" y2="18" />
+            <line x1="4.93" y1="4.93" x2="7.76" y2="7.76" />
+            <line x1="16.24" y1="16.24" x2="19.07" y2="19.07" />
+            <line x1="2" y1="12" x2="6" y2="12" />
+            <line x1="18" y1="12" x2="22" y2="12" />
+            <line x1="4.93" y1="19.07" x2="7.76" y2="16.24" />
+            <line x1="16.24" y1="7.76" x2="19.07" y2="4.93" />
+          </svg>
+          
+            </div>   
+      </div> 
+            
+    </div>
+
+    <div class="about-section-cards m-3">
+   <div class="row p-4">
+        <div class="col order-2">
+          <p class="about-section-card-headings">External Flash</p>
+          <p class="about-section-card-paragraphs">Add versatility to your lighting setup with an external flash for low-light situations and creative lighting effects.</p>
+        </div>
+        <div class="text-center col order-1 about-svg">
+          <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          height="150"
+          width="150"
+        >
+          <path d="M12 5v11M8 13h8M9 16h6M10 19h4" />
+          <circle cx="12" cy="12" r="10" />
+        </svg>
+        
+          
+         </div>   
+   </div> 
+         
+    </div>
+
+    <div class="about-section-cards m-3">
+   <div class="row p-4">
+        <div class="col order-1">
+          <p class="about-section-card-headings">Camera Remote</p>
+          <p class="about-section-card-paragraphs">Capture self-portraits, long exposures, and time-lapse sequences with a camera remote or intervalometer.</p>
+        </div>
+        <div class="text-center col order-2 about-svg">
+          <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          height="150"
+          width="150"
+        >
+          <path d="M9 17v4h6v-4M12 1v6M6 5l2 2-2 2M18 5l-2 2 2 2M7 8h6" />
+          <circle cx="12" cy="12" r="10" />
+        </svg>
+        
+         </div>   
+   </div> 
+         
+    </div>
+
+    <div class="about-section-cards m-3">
+   <div class="row p-4">
+        <div class="col order-2">
+          <p class="about-section-card-headings">Lens Hood</p>
+          <p class="about-section-card-paragraphs"> Reduce lens flare and protect your lens from stray light and damage with a lens hood.</p>
+        </div>
+        <div class="text-center col order-1 about-svg">
+          <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          height="150"
+          width="150"
+        >
+          <path d="M21 12h-1M3 12H2M18.364 5.636l-1.414 1.414M5.636 18.364l1.414-1.414M19 12c0-4.418-3.582-8-8-8s-8 3.582-8 8 3.582 8 8 8 8-3.582 8-8z" />
+        </svg>
+        
+         </div>   
+   </div> 
+         
+    </div>
+
+    <div class="about-section-cards m-3">
+     <div class="row p-4">
+        <div class="col order-1">
+          <p class="about-section-card-headings">Cleaning Kit</p>
+          <p class="about-section-card-paragraphs"> Keep your camera and lenses clean and free from dust, dirt, and smudges with a camera cleaning kit.</p>
+        </div>
+        <div class="text-center col order-2 about-svg">
+          <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          height="150"
+          width="150"
+        >
+          <path d="M17 14l2.88 3.997a2 2 0 0 1-.45 2.611l-1.4 1.05a2 2 0 0 1-2.61-.45L13 17" />
+          <path d="M21 5v7a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V5h18z" />
+          <line x1="3" y1="10" x2="21" y2="10" />
+        </svg>
+        
+        </div>   
+   </div> 
+         
+    </div>
+  
+    <h5 class="main-heading container">Professional-Level Cameras</h5>
+    <p class="paragraph container">Professional-level cameras are designed for serious photographers and 
+      professionals who demand the highest image quality, performance, and durability. These cameras feature 
+      advanced autofocus systems, rugged weather-sealed bodies, and customizable controls for maximum versatility 
+      and reliability in demanding shooting conditions. Professional DSLRs and mirrorless cameras are essential 
+      tools for professional photographers, including wedding photographers, photojournalists, and commercial shooters.
+    </p>
+    <p class="main-paragraph container"><i>Recommended Accessories for Professional-Level Cameras:</i></p>
+    
+
+    <div class="about-section-cards m-3">
+      <div class="row p-4">
+           <div class="col order-1">
+             <p class="about-section-card-headings">High-Quality Lenses</p>
+             <p class="about-section-card-paragraphs"> Invest in top-of-the-line lenses for exceptional sharpness, clarity, and optical performance.
+            </p>
+           </div>
+           <div class="text-center col order-2 about-svg">
+            <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            height="150"
+            width="150"
+          >
+            <path d="M12 5a5 5 0 0 1 5 5c0 3.689-3.894 8.908-5 10.5-1.106-1.592-5-6.811-5-10.5a5 5 0 0 1 5-5z" />
+            <circle cx="12" cy="12" r="3" />
+          </svg>
+          
+            </div>   
+      </div> 
+            
+    </div>
+
+    <div class="about-section-cards m-3">
+     <div class="row p-4">
+        <div class="col order-2">
+          <p class="about-section-card-headings">Battery Grip</p>
+          <p class="about-section-card-paragraphs"> Extend your shooting time and improve handling with a battery grip for your camera.</p>
+        </div>
+        <div class="text-center col order-1 about-svg">
+          <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          height="150"
+          width="150"
+        >
+          <rect x="1" y="5" width="22" height="14" rx="2" ry="2" />
+          <path d="M1 10h22M8 18h8M9 15h6" />
+        </svg>
+        
+          
+         </div>   
+   </div> 
+         
+    </div>
+
+    <div class="about-section-cards m-3">
+   <div class="row p-4">
+        <div class="col order-1">
+          <p class="about-section-card-headings">External Microphone</p>
+          <p class="about-section-card-paragraphs">Capture high-quality audio for video recordings and interviews with an external microphone.</p>
+        </div>
+        <div class="text-center col order-2 about-svg">
+          <svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" fill="currentColor" class="bi bi-mic" viewBox="0 0 16 16">
+            <path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5"/>
+            <path d="M10 8a2 2 0 1 1-4 0V3a2 2 0 1 1 4 0zM8 0a3 3 0 0 0-3 3v5a3 3 0 0 0 6 0V3a3 3 0 0 0-3-3"/>
+          </svg>
+         </div>   
+   </div> 
+         
+    </div>
+
+    <div class="about-section-cards m-3">
+    <div class="row p-4">
+        <div class="col order-2">
+          <p class="about-section-card-headings">Studio Lighting</p>
+          <p class="about-section-card-paragraphs"> Create professional-quality lighting setups for studio and portrait photography with studio lights and modifiers.</p>
+        </div>
+        <div class="text-center col order-1 about-svg">
+          <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          height="150"
+          width="150"
+        >
+          <path d="M21 12h-6M3 12h6M12 22v-6M12 2v6M8.485 8.485l4.243 4.243M15.757 8.485l-4.243 4.243" />
+        </svg>
+        
+         </div>   
+   </div> 
+         
+    </div>
+
+    <div class="about-section-cards m-3">
+     <div class="row p-4">
+        <div class="col order-1">
+          <p class="about-section-card-headings">Camera Strap</p>
+          <p class="about-section-card-paragraphs">Carry your camera comfortably and securely with a durable and ergonomic camera strap.</p>
+        </div>
+        <div class="text-center col order-2 about-svg" id="favicon">
+          <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                height="150"
+                width="150"
+              >
+                <path d="M21 13h-2.5a3.5 3.5 0 0 1-3.5-3.5v-1A3.5 3.5 0 0 0 11.5 5h-5A3.5 3.5 0 0 0 3 8.5v1A3.5 3.5 0 0 1 .5 13H3" />
+                <path d="M16 17l4-4-4-4M16 21l4-4-4-4" />
+          </svg>
+
+        </div>   
+   </div> 
+         
+    </div>
+
+  </div> 
+
+    <div class="last-card container-fluid text-center mt-5">
+      <div class="container-fluid down-menu-section">
+        <a href="#Home" class="anchor-decoration">home</a>
+        <a href="#Services" class="anchor-decoration">Services</a>
+        <a href="#About" class="anchor-decoration">about</a>
+        <a href="#Blog" class="anchor-decoration">Blog</a>
+      </div>
+    <div class="d-flex flex-row justify-content-center pt-5">
+        <div>
+          <a href="" class="anchor-decoration">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16">
+              <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
+            </svg><br>
+          Twitter
+          </a>
+        </div>
+        <div>
+          <a href="" class="anchor-decoration">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+              <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+            </svg><br>
+            Facebook
+        </a>
+        </div>
+        <div>
+          <a href="" class="anchor-decoration">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+              <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+            </svg><br>
+            Instagram
+          </a>
+        </div>
+    </div>
+    <p class="last-para" >
+       Created by Praveen kumar Balaga <br>
+      All rights reserved @ 2024
+      <a href="" class="anchor-decoration">| privacy and policies</a>
+    </p>
+    </div>   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
