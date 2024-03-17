@@ -1,1 +1,2 @@
 # Captures
+Introducing a dynamic and user-friendly responsive website tailored for all your photography booking needs! Whether it's capturing precious moments at kids' birthdays, elegantly commemorating half saree ceremonies, or immortalizing the love of pre and post-wedding festivities, our platform caters to all events. From family gatherings to special occasions, book your photography session effortlessly and ensure your memories last a lifetime.
