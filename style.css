@@ -1,0 +1,701 @@
+#page-1{  
+    /* background-image: url("/pedroquintela-1500x844.jpg"); 
+    background-size: cover; */
+    height:auto;
+    width: 100vw;     
+}
+.captures{
+  color:white; 
+  font-size: x-small; 
+}
+.navbar-items{
+  color: white;
+  opacity: 0.8;
+  text-decoration: none;
+}
+.navbar-items:hover{
+  font-weight: bold;
+}
+.first-page-part-1{
+  position: relative;
+  padding: 58px;
+  margin: 58px;
+  text-align: start;
+  width: 50%;
+  animation: sd-txt-animie 2s;
+}
+@keyframes sd-txt-animie{
+  from{
+     left: -10%;
+     color: black;
+      opacity: 0;
+  }
+  to{
+    left: 0;
+    opacity:0.7;
+  }
+} 
+.hello-captures{
+  color: black;
+  font-family:'Times New Roman', Times, serif; 
+  font-style: italic;
+}
+.commitment{
+  color:black;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  padding-top: 52px;
+  text-align: start;
+}
+.first-page-part-2{
+  position: relative;
+  padding: 58px;
+  margin: 58px;
+  width: 50%;
+  animation:something-txt-animie 2s;
+}
+@keyframes something-txt-animie {
+  from{
+      right: -10%;
+      color: black;
+      opacity: 0;
+  }
+  to{
+      right: 0;
+      opacity: 0.7;
+  }
+}  
+
+.emoji-style{
+  color: black;
+  animation:Rotate-round 2s linear infinite;
+}
+.emoji-style:hover{
+  animation-play-state:paused;
+  color:transparent;
+}
+@keyframes Rotate-round{
+  from{
+     transform:rotate(0deg);
+  }
+  to{
+      transform:rotate(360deg);
+  }
+}
+
+#page-2 {
+    display: block; /* Hide all pages initially */
+    /* background-image: url("https://img.etimg.com/thumb/width-1600,height-900,imgsize-21824,resizemode-75,msid-102179093/industry/cons-products/electronics/sony-india-aims-40-growth-in-audio-business-in-fy24.jpg");
+    background-size: cover; */
+    height:auto;
+    width: 100vw;   
+}
+.coverages{
+  padding-top: 12px;
+  padding: 12px;
+  color: black;
+  text-align:center;
+  font-family:'Times New Roman', Times, serif; 
+  font-style: italic;
+}
+.coverages-container{
+  /* background-image: url("https://img.etimg.com/thumb/width-1600,height-500,imgsize-21824,resizemode-75,msid-102179093/industry/cons-products/electronics/sony-india-aims-40-growth-in-audio-business-in-fy24.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; */
+  text-align: center;
+  padding: 32px;
+}
+.coverage-items{
+  padding: 52px;
+}
+.coverage-svg{
+   height: 80px;
+   width: 80px;
+}
+.coverage{
+  color: black;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+}
+.photo-box {  
+  position: relative;
+  width: 300px; /* or whatever width you desire */
+  height: 500px; /* or whatever height you desire */
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+.photo-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.5s ease;
+}
+
+.photo-box .content {
+  border: 1px solid black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 32px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.photo-box:hover .content {
+  opacity: 1;
+}
+
+.photo-box:hover img {
+  opacity: 0;
+}
+
+.content-top-sectiion-1{
+  background-image: url("https://petapixel.com/assets/uploads/2023/07/how-to-shoot-music-concert-featured-image.jpg");
+  height: 150px;
+  width: 100%;
+  border-bottom: 1px solid black;
+  background-size: cover;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 5px 5px 12px black;
+}
+.content-bottom-sectiion{
+  margin: 12px;
+}
+.content-top-sectiion-2{
+  background-image: url("https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fHdlZGRpbmd8ZW58MHx8MHx8fDA%3D");
+  height: 150px;
+  width: 100%;
+  background-size: cover;
+  border-bottom: 1px solid black;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 25px;
+  text-shadow: 5px 5px 12px black;
+}
+.content-top-sectiion-3{
+  background-image: url("https://images.unsplash.com/photo-1511551203524-9a24350a5771?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  height: 150px;
+  width: 100%;
+  background-size: cover;
+  border-bottom: 1px solid black;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 25px;
+  text-shadow: 5px 5px 12px black;
+}
+.content-top-sectiion-4{
+  background-image: url("https://images.unsplash.com/photo-1577962917302-cd874c4e31d2?q=80&w=1632&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  height: 150px;
+  width: 100%;
+  background-size: cover;
+  border-bottom: 1px solid black;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 25px;
+  text-shadow: 5px 5px 12px black;
+}
+.content-top-sectiion-5{
+  background-image: url("https://images.unsplash.com/photo-1589050820342-d666e6116a45?q=80&w=1473&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  height: 150px;
+  width: 100%;
+  background-size: cover;
+  border-bottom: 1px solid black;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 25px;
+  text-shadow: 5px 5px 12px black;
+}
+.content-top-sectiion-6{
+  background-image: url("");
+  height: 150px;
+  width: 100%;
+  background-size: cover;
+  border-bottom: 1px solid black;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 25px;
+  text-shadow: 5px 5px 12px black;
+}
+li{
+  list-style-type:square;
+  font-size:small;
+  padding: 0;
+  margin: 0;
+}
+.price{
+  padding-left: 12px;
+  font-size: small;
+  color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.org-price{
+  color: rgb(117, 98, 98);
+  text-decoration: line-through;
+  font-size:small;
+}
+.offer-price{
+  font-size:small;
+}
+.pre-booking{
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 6px;
+  color: black;
+  border-radius: 12px;
+  margin-top: 6px;
+  padding: 8px;
+  font-size: small;
+  display: inline-block;
+}
+.pre-booking:hover{
+  color: white;
+  background-color: black;
+}
+
+#page-3{
+    display: block; /* Hide all pages initially */ 
+    height:auto;
+    width: 100vw;
+    text-align: center;  
+}
+#number1, #number2, #number3, #number4{
+  font-size: 50px;
+  font-weight: bold;
+  margin: 12px;
+  font-family:'Times New Roman', Times, serif;
+}
+.assignments{
+  font-size: 24px;
+   font-weight: bold;
+   margin: 12px;
+   font-family:'Times New Roman', Times, serif;
+}
+.number-styles{
+ margin: 25px;
+ padding: 25px;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.scroll-container {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.scroll-content {
+  display: flex;
+  white-space: wrap;
+  animation-iteration-count: infinite;
+  animation: scroll-right-to-left 30s linear infinite;
+}
+
+.scroll-card {
+  width: auto;
+  border-radius: 12px;
+  text-align: start;
+  margin-right: 12px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  padding: 12px;
+}
+
+@keyframes scroll-right-to-left {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.first-section{
+  width:200px;
+}
+.second-section{
+  width: 300px;
+  padding: 12px;
+}
+.first-section-img{
+ height:180px;
+ width:180px;
+ border-radius: 50%;
+ background-size: cover;
+ border: 1px solid black;
+}
+
+.rating {
+  direction: rtl;
+}
+
+.rating > input {
+  display: none; /* Hide radio buttons */
+}
+
+.rating > label {
+  cursor: pointer;
+  font-size: 50px;
+  margin-right: 24px;
+  color: #ccc; /* Color of unselected stars */
+}
+
+.rating > input:checked ~ label,
+.rating > input:hover ~ label,
+.rating > input ~ label:hover,
+.rating > input ~ label:hover ~ label {
+  color: black; /* Color of selected or hovered stars */
+}
+
+.rating > input:hover ~ label,
+.rating > label:hover,
+.rating > label:hover ~ label {
+  color:black;
+}
+
+form{
+  margin: 32px;
+}
+.full-name{
+  width: 50%;
+  border:1px solid black;
+  border-radius: 12px;
+  padding: 8px;
+  margin: 12px;
+}
+.full-name:hover{
+  box-shadow: 0px 0px 4px black;
+}
+.Email-address{
+  width: 50%;
+  border:1px solid black;
+  border-radius: 12px;
+  padding: 8px;
+  margin: 12px;
+}
+.Email-address:hover{ 
+  box-shadow: 0px 0px 4px black;
+}
+.rate-us-txt{
+  font-size: medium;
+}
+.review-box{
+  width: 50%;
+  border: 1px solid black;
+  border-radius: 12px;
+  padding: 5px;
+  margin: 12px;
+}
+.review-box:hover{
+  box-shadow: 0px 0px 4px black;
+}
+.file-uploads{
+  width: 50%;
+}
+.rating{
+  text-align: center;
+}
+
+.contact{
+  color: white;   
+  background-color: black;    
+}
+.contact-items{
+      color: white;
+      opacity: 0.8;
+      text-decoration: none;
+      padding: 12px;
+}
+
+.contact-a-items{
+  text-decoration: none;
+  color: grey;
+  margin: 12px;
+}
+.contact-symbols{
+  height: 30px;
+  width: 30px;
+  color: white;
+  background-color: grey;
+  padding: 5px;
+  border-radius: 50%;
+}
+.contact-txt-items{
+  color: grey;
+  text-decoration: none;
+  font-size: smaller;
+}
+
+.background{
+/* color: white; */
+/* background-color: black; */
+/* background-image: linear-gradient(33deg,rgb(27, 27, 44),rgb(38, 58, 38),rgb(58, 31, 31)); */
+background-size: cover;
+border: 1px solid black;
+border-radius: 12px;
+}
+
+#page-4{
+  display: block; /* Hide all pages initially */ 
+  height:auto;
+  width: 100vw;
+  text-align: center;
+}
+
+@media (max-width:968px){
+  .navbar-items{
+    color: white;
+    opacity: 0.8;
+    text-decoration: none;
+    font-size:small;
+    padding: 12px;
+  }
+  .nav-button{
+    padding: 0px;
+    font-size: xx-small !important;
+  }
+  .first-page-part-1{
+    margin: 12px;
+    text-align: center;
+    animation: sd-txt-animie 1s;
+  }
+  @keyframes sd-txt-animie{
+    from{
+       left: -10%;
+       color: black;
+        opacity: 0;
+    }
+    to{
+      left: 0;
+      opacity:0.7;
+    }
+  } 
+  .hello-captures{
+    color: black;
+    font-family:'Times New Roman', Times, serif; 
+    font-style: italic;
+    font-size:large;
+    padding: 0;
+  }
+  .commitment{
+    color:black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    text-align: center;
+    font-size: small;
+    padding: 12px;
+    padding-bottom: 0%;
+  }
+  .first-page-part-2{
+    margin-top: 0;
+    padding-top: 0;
+    margin:0;
+    text-align: center;
+    animation:something-txt-animie 1s;
+  }
+  @keyframes something-txt-animie {
+    from{
+        right: -10%;
+        color: black;
+        opacity: 0;
+    }
+    to{
+        right: 0;
+        opacity: 0.7;
+    }
+  }  
+  .carousel-images{
+    height: 300px;
+    background-size: cover; 
+  }
+  .carousel-button{
+    background-color:black;
+    opacity: 0.5;
+    border-radius: 50%;
+  }
+  .caption{
+    font-size: small;
+    text-align: center;
+    color:black;
+    font-style: italic;
+    padding-top: 12px;
+    animation: caption-animie 3s;
+  }
+  .coverages{
+    margin: 0;
+    padding: 3px;
+    font-size:large;
+    color: black;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif; 
+    font-style: italic;
+  }
+  .coverages-container{
+    text-align: center;
+    
+  }
+  .coverage-items{
+    padding: 12px;
+  }
+  .coverage-svg{
+     height: 80px;
+     width: 80px;
+     padding: 12px;
+  }
+  .coverage{
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-size: x-small;
+  }
+  .photo-box {  
+    position: relative;
+    width: 300px; /* or whatever width you desire */
+    height: 500px; /* or whatever height you desire */
+    overflow: hidden;
+    margin-bottom: 24px;
+  }
+  .photo-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: opacity 0.5s ease;
+  }
+  
+  .photo-box .content {
+    border: 1px solid black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 32px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+  
+  .photo-box:hover .content {
+    opacity: 1;
+  }
+  
+  .photo-box:hover img {
+    opacity: 0;
+  }
+  #number1, #number2, #number3, #number4{
+    font-size:xx-large;
+    font-weight: bold;
+    margin: 12px;
+    font-family:'Times New Roman', Times, serif;
+  }
+  .assignments{
+     font-size:x-small;
+     font-weight: bold;
+     margin: 12px;
+     text-align: center;
+     font-family:'Times New Roman', Times, serif;
+  }
+  .number-styles{
+   margin: 25px;
+   padding: 25px;
+  }
+  .scroll-content {
+  display: flex;
+  white-space: wrap;
+  animation: scroll-right-to-left 15s linear infinite;
+  }
+  @keyframes scroll-right-to-left {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+  }
+  form{
+    margin: 32px;
+  }
+  .full-name{
+    width: 100%;
+    border:1px solid black;
+    border-radius: 12px;
+    padding: 8px;
+    margin: 6px;
+  }
+  .full-name:hover{
+    box-shadow: 0px 0px 4px black;
+  }
+  .Email-address{
+    width: 100%;
+    border:1px solid black;
+    border-radius: 12px;
+    padding: 8px;
+    margin:6px;
+  }
+  .Email-address:hover{ 
+    box-shadow: 0px 0px 4px black;
+  }
+  .rate-us-txt{
+    font-size: medium;
+  }
+  .review-box{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 12px;
+    padding: 8px;
+    margin: 6px;
+  }
+  .review-box:hover{
+    box-shadow: 0px 0px 4px black;
+  }
+  .file-uploads{
+    width: 100%;
+    padding: 8px;
+    margin: 6px;
+  }
+  .rating{
+    width: 100%; 
+  }
+  label{
+    height: 16px;
+    width: 16px;
+    padding-top: 0;
+    margin-top: 0;
+    margin-left: 24px;
+  }
+  .contact-items{
+        color: white;
+        opacity: 0.8;
+        text-decoration: none;
+        padding: 16px;
+  }
+  .contact-a-items{
+    text-decoration: none;
+    color: grey;
+    margin:3px;
+    font-size: xx-small;
+  }
+  .contact-symbols{
+    height: 24px;
+    width: 24px;
+    color: white;
+    background-color: grey;
+    padding:3px;
+    border-radius: 50%;
+  }
+  .contact-txt-items{
+    color: grey;
+    text-decoration: none;
+    font-size:xx-small;
+  }
+}
