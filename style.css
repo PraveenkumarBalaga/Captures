@@ -413,14 +413,13 @@ form{
 }
 .contact-items{
       color: white;
-      opacity: 0.8;
       text-decoration: none;
       padding: 12px;
 }
 
 .contact-a-items{
   text-decoration: none;
-  color: grey;
+  color: white;
   margin: 12px;
 }
 .contact-symbols{
@@ -432,7 +431,7 @@ form{
   border-radius: 50%;
 }
 .contact-txt-items{
-  color: grey;
+  color: white;
   text-decoration: none;
   font-size: smaller;
 }
@@ -677,11 +676,11 @@ border-radius: 12px;
         color: white;
         opacity: 0.8;
         text-decoration: none;
-        padding: 16px;
+        padding: 6px;
   }
   .contact-a-items{
     text-decoration: none;
-    color: grey;
+    color: white;
     margin:3px;
     font-size: xx-small;
   }
@@ -694,7 +693,7 @@ border-radius: 12px;
     border-radius: 50%;
   }
   .contact-txt-items{
-    color: grey;
+    color: white;
     text-decoration: none;
     font-size:xx-small;
   }
